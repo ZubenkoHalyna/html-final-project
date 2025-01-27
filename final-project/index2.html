@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Dasteen blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="page-constraint">
+        <img class="logo" src="icon/logo.svg" alt="Dasteen blog logo">
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a href="/">Category</a></li>
+                <li><a href="/">About Me</a></li>
+                <li>
+                    <a class="row" href="/">
+                        <img src="icon/search-icon.svg" alt="Search icon">
+                        Search
+                    </a>
+                </li>
+                <li>
+                    <button class="row">
+                        <img src="icon/coffee-icon.svg" alt="Coffee icon">
+                        Buy Me A Coffee
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="scroll-area">
+    <main>
+        <section class="first-screen">
+            <div class="page-constraint">
+                <div class="column">
+                    <h1>Hi, i’m Dasteen Front end dev</h1>
+                    <div class="decoration">
+                        <p> On this blog I share tips and tricks, frameworks, projects, tutorials, etc.
+                            Make sure you subscribe to get the latest updates </p>
+                    </div>
+                    <form>
+                        <input type="email" name="email" placeholder="Enter your email here...." required
+                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <img src="img/learn-coding.svg" alt="Dasteen blog main img">
+            </div>
+            <a class="scroll-down-btn" href="#categories"> &#9660; </a>
+        </section>
+        <section class="page-constraint" id="categories">
+            <div class="row">
+                <h3>Browse the category</h3>
+                <a class="styled-link" href="/">see all category</a>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="icon/css-icon.svg" alt="CSS icon">
+                    <h3>CSS</h3>
+                    <div class="dots-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="icon/js-icon.svg" alt="Javascript icon">
+                    <h3>javascript</h3>
+                    <div class="dots-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="icon/tailwind-icon.svg" alt="Tailwind icon">
+                    <h3>Tailwind</h3>
+                    <div class="dots-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="icon/vue-js-icon.svg" alt="Vue JS icon">
+                    <h3>Vue JS</h3>
+                    <div class="dots-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="icon/react-js-icon.svg" alt="React JS icon">
+                    <h3>React JS</h3>
+                    <div class="dots-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg-white">
+            <section class="articles page-constraint">
+                <div class="row">
+                    <h3>Featured Article</h3>
+                    <a class="styled-link" href="/">see all category</a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="img/Article_Image_1.png" alt="Fundamental of javascript image">
+                        <h4>Fundamental of javascript</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_2.png" alt="Grid CSS image">
+                        <h4>Grid CSS make your life easier</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_3.png" alt="Animated light mode image">
+                        <h4>Make animated light mode and dark mode toggle with CSS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_4.png" alt="Tic tac toe games image">
+                        <h4>Make tic tac toe games with react JS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="articles page-constraint">
+                <div class="row">
+                    <h3>CSS</h3>
+                    <a class="styled-link" href="/">see all category</a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="img/Article_Image_5.png" alt="Flexbox CSS image">
+                        <h4>Flexbox CSS : Everything you need to know</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_2.png" alt="Grid CSS image">
+                        <h4>Grid CSS make your life easier</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_6.png" alt="Make div center image">
+                        <h4>3 easy way to make div center</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_3.png" alt="Animated light mode image">
+                        <h4>Make animated light mode and dark mode toggle with CSS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="articles page-constraint">
+                <div class="row">
+                    <h3>javascript</h3>
+                    <a class="styled-link" href="/">see all category</a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="img/Article_Image_7.png" alt="Array in javasript image">
+                        <h4>array in javasript - Learn JS #3</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_1.png" alt="Fundamental of javascript image">
+                        <h4>Fundamental of javascript</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_8.png" alt="Projects with javascript image">
+                        <h4>7 project with javascript you must try for your portfolio</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_9.png" alt="Simple calculator image">
+                        <h4>make simple calculator with javascript</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="articles page-constraint">
+                <div class="row">
+                    <h3>React JS</h3>
+                    <a class="styled-link" href="/">see all category</a>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="img/Article_Image_10.png" alt="First month of leaning image">
+                        <h4>first month of leaning react jS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_11.png" alt="Markdown editor image">
+                        <h4>build markdown editor with react JS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_12.png" alt="Getting started image">
+                        <h4>getting started with react JS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Article_Image_4.png" alt="Tic tac toe games image">
+                        <h4>Make tic tac toe games with react JS</h4>
+                        <div class="author-info">
+                            <img src="img/Dasteen.png" alt="Dasteen photo">
+                            <div class="column">
+                                <h5>Dasteen</h5>
+                                <div class="row">
+                                    <span>Jan 10, 2022</span>
+                                    <span>&bullet;</span>
+                                    <span>3 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button>More Article</button>
+        </div>
+
+        <section class="subscribe page-constraint">
+            <img src="icon/subscribe-icon.svg" alt="Subscribe icon">
+            <div>
+                <h2>Subscribe For the lastest updates</h2>
+                <p>Subscribe to newsletter and never miss the new post every week.</p>
+            </div>
+            <form>
+                <input type="email" name="email" placeholder="Enter your email here...." required
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <input type="submit" value="Subscribe">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="page-constraint">
+            <div class="row">
+                <div class="column">
+                    <img class="logo" src="icon/logo.svg" alt="Dasteen blog logo">
+                    <p>Digitaldastin by Dastin Darmawan</p>
+                    <div class="social">
+                        <a href="https://medium.com/"><img src="icon/medium-icon.svg" alt="Medium icon"></a>
+                        <a href="https://x.com/"><img src="icon/x-icon.svg" alt="Twitter icon"></a>
+                        <a href="https://www.instagram.com/"><img src="icon/instagram-icon.svg"
+                                                                  alt="Instagram icon"></a>
+                        <a href="https://linkedin.com/"><img src="icon/linkedin-icon.svg" alt="Linkedin icon"></a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3>Category</h3>
+                    <a href="/">CSS</a>
+                    <a href="/">Javascript</a>
+                    <a href="/">Tailwind</a>
+                    <a href="/">React JS</a>
+                    <a href="/">More Category</a>
+                </div>
+
+                <div class="column">
+                    <h3>About Me</h3>
+                    <a href="/">About Me</a>
+                    <a href="/">Projects</a>
+                    <a href="/">Achievement</a>
+                </div>
+
+                <div class="column">
+                    <h3>Get in touch</h3>
+                    <a href="tel:+62-8XXX-XXX-XX">+62-8XXX-XXX-XX</a>
+                    <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                </div>
+
+                <div class="column">
+                    <h3>Follow Us</h3>
+                    <a href="https://medium.com/">Medium</a>
+                    <a href="https://x.com/">Instagram</a>
+                    <a href="https://www.instagram.com/">Twitter</a>
+                    <a href="https://linkedin.com/">Facebook</a>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2025 Digitaldastin</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
