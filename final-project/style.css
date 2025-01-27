@@ -400,8 +400,8 @@ footer .column {
     gap: 20px;
 }
 
-footer h4 {
-    margin-bottom: 5px;
+footer .column:first-of-type {
+    margin-right: 65px;
 }
 
 footer p {
@@ -417,8 +417,8 @@ footer .social a {
     height: 24px;
 }
 
-footer .column:first-of-type {
-    margin-right: 65px;
+footer h4 {
+    margin-bottom: 5px;
 }
 
 footer hr {
