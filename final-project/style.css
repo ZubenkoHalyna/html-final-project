@@ -238,8 +238,6 @@ main .first-screen .scroll-down-btn {
 /* -------------- Categories ------------- */
 
 main #categories {
-    /*scroll-snap-align: start;*/
-    /*scroll-margin-top: var(--header-height);*/
     overflow-x: hidden; /* hides dots for the last card when width < 1250*/
 }
 
